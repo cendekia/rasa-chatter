@@ -1,0 +1,1 @@
+rasa-chatter is a command tool to generate, manage, convert, and even train conversation from simgus/chatette dataset to Rasa NLU format.

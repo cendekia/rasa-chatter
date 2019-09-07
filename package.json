@@ -1,0 +1,12 @@
+{
+  "name": "rasa-chatter",
+  "version": "0.0.3",
+  "description": "A command tool to generate, manage, convert, and even train conversation from simgus/chatette dataset to Rasa NLU format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Cendekia Pramana Putra <me@cendekiapp.com>",
+  "license": "MIT"
+}
