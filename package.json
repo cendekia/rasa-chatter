@@ -1,6 +1,6 @@
 {
   "name": "rasa-chatter",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A command line tool that simplify the process of generate, manage, convert, and even train conversation from simgus/chatette dataset to Rasa NLU format.",
   "main": "index.js",
   "bin": {
