@@ -6,3 +6,39 @@
 [![https://nodei.co/npm/rasa-chatter.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/rasa-chatter.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/rasa-chatter)
 
 rasa-chatter is a command tool to generate, manage, convert, and even train conversation from simgus/chatette dataset to Rasa NLU format.
+
+---
+
+## Installation
+```shell
+npm install -g rasa-chatter
+```
+---
+
+## Commands
+
+You can use `chatter <command>`
+
+### Generate
+Generate dataset into Rasa compatible train json data
+```shell
+chatter generate
+```
+
+### Convert
+Convert train json data into Rasa NLU
+```shell
+chatter convert
+```
+
+### Train the data
+Training NLU data into your bot
+```shell
+chatter train
+```
+
+### Bundle Command
+optionally you can also directly use `bundle` command to run all the process (shortcut if we do back and fort training the data) 
+```shell
+chatter bundle
+```
