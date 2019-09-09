@@ -1,12 +1,42 @@
 {
   "name": "rasa-chatter",
   "version": "0.0.4",
-  "description": "A command tool to generate, manage, convert, and even train conversation from simgus/chatette dataset to Rasa NLU format.",
+  "description": "A command line tool that simplify the process of generate, manage, convert, and even train conversation from simgus/chatette dataset to Rasa NLU format.",
   "main": "index.js",
+  "bin": {
+    "chatter": "./index.js"
+  },
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cendekia/rasa-chatter.git"
+  },
+  "keywords": [
+    "bot",
+    "chatbot",
+    "chatette",
+    "cli",
+    "convertor",
+    "dataset",
+    "generator",
+    "manager",
+    "nlp",
+    "nlu",
+    "rasa",
+    "template"
+  ],
   "author": "Cendekia Pramana Putra <me@cendekiapp.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "inquirer": "^7.0.0",
+    "ora": "^3.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
 }
