@@ -7,7 +7,8 @@
         },
         "json_output":{
             "path": "./output/train",
-            "filename": "output.json"
+            "filename": "output",
+            "extension": "json"
         },
         "rasa": {
             "nlu" : {
