@@ -1,0 +1,21 @@
+{
+    "default_settings": {
+        "dsl_template": {
+            "path": "./template",
+            "filename": "master",
+            "extension": "chat"
+        },
+        "json_output":{
+            "path": "./output/train",
+            "filename": "output.json"
+        },
+        "rasa": {
+            "nlu" : {
+                "path": "./data",
+                "filename": "nlu",
+                "extension": "md"
+            }
+        }
+    },
+    "user_settings": {}
+}
