@@ -8,6 +8,6 @@ before_install:
   - npm i execa
   - npm i inquirer
   - npm i ora
-  - npm install -g your-package-name
+  - npm install -g rasa-chatter
 cache:
   npm: false
