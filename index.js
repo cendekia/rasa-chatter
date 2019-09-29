@@ -5,6 +5,11 @@ const action = require('./lib/action.js');
 program.version(require('./package.json').version);
 
 program
+    .command('init [project]')
+    .description('Init rasa-chatter settings')
+    .action(action.init);
+
+program
     .command('generate')
     .description('Generate dataset')
     .action(action.generate);

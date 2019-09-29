@@ -1,5 +1,9 @@
 {
     "default_settings": {
+        "project": {
+            "path": ".",
+            "name": null
+        },
         "dsl_template": {
             "path": "./template",
             "filename": "master",
@@ -18,5 +22,6 @@
             }
         }
     },
-    "user_settings": {}
+    "current_selected_project": null,
+    "user_settings": []
 }
