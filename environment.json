@@ -7,7 +7,7 @@
         "dsl_template": {
             "path": "./template",
             "filename": "master",
-            "extension": "chat"
+            "extension": "chatette"
         },
         "json_output":{
             "path": "./output/train",
